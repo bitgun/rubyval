@@ -1,0 +1,302 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A9D3D55215086FD700D286BF /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9D3D55115086FD700D286BF /* Cocoa.framework */; };
+		A9D3D55C15086FD700D286BF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A9D3D55A15086FD700D286BF /* InfoPlist.strings */; };
+		A9D3D575150870B900D286BF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A9D3D572150870B900D286BF /* main.m */; };
+		A9D3D576150870B900D286BF /* RVService.m in Sources */ = {isa = PBXBuildFile; fileRef = A9D3D574150870B900D286BF /* RVService.m */; };
+		A9D3D5791508719900D286BF /* test.rb in Resources */ = {isa = PBXBuildFile; fileRef = A9D3D5781508719900D286BF /* test.rb */; };
+		A9D3D57B150871B400D286BF /* MacRuby.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9D3D57A150871B400D286BF /* MacRuby.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A9D3D54E15086FD700D286BF /* RubyVal.service */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RubyVal.service; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9D3D55115086FD700D286BF /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		A9D3D55415086FD700D286BF /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		A9D3D55515086FD700D286BF /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		A9D3D55615086FD700D286BF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A9D3D55915086FD700D286BF /* RubyVal-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RubyVal-Info.plist"; sourceTree = "<group>"; };
+		A9D3D55B15086FD700D286BF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A9D3D55D15086FD700D286BF /* RubyVal-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RubyVal-Prefix.pch"; sourceTree = "<group>"; };
+		A9D3D572150870B900D286BF /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A9D3D573150870B900D286BF /* RVService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RVService.h; sourceTree = "<group>"; };
+		A9D3D574150870B900D286BF /* RVService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RVService.m; sourceTree = "<group>"; };
+		A9D3D5781508719900D286BF /* test.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; name = test.rb; path = lib/ruby/test.rb; sourceTree = SOURCE_ROOT; };
+		A9D3D57A150871B400D286BF /* MacRuby.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MacRuby.framework; path = Library/Frameworks/MacRuby.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A9D3D54B15086FD700D286BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9D3D57B150871B400D286BF /* MacRuby.framework in Frameworks */,
+				A9D3D55215086FD700D286BF /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A9D3D54315086FD700D286BF = {
+			isa = PBXGroup;
+			children = (
+				A9D3D56A1508704A00D286BF /* lib */,
+				A9D3D55715086FD700D286BF /* RubyVal */,
+				A9D3D55015086FD700D286BF /* Frameworks */,
+				A9D3D54F15086FD700D286BF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A9D3D54F15086FD700D286BF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A9D3D54E15086FD700D286BF /* RubyVal.service */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A9D3D55015086FD700D286BF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A9D3D57A150871B400D286BF /* MacRuby.framework */,
+				A9D3D55115086FD700D286BF /* Cocoa.framework */,
+				A9D3D55315086FD700D286BF /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A9D3D55315086FD700D286BF /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A9D3D55415086FD700D286BF /* AppKit.framework */,
+				A9D3D55515086FD700D286BF /* CoreData.framework */,
+				A9D3D55615086FD700D286BF /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		A9D3D55715086FD700D286BF /* RubyVal */ = {
+			isa = PBXGroup;
+			children = (
+				A9D3D572150870B900D286BF /* main.m */,
+				A9D3D573150870B900D286BF /* RVService.h */,
+				A9D3D574150870B900D286BF /* RVService.m */,
+				A9D3D55815086FD700D286BF /* Supporting Files */,
+			);
+			path = RubyVal;
+			sourceTree = "<group>";
+		};
+		A9D3D55815086FD700D286BF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A9D3D55915086FD700D286BF /* RubyVal-Info.plist */,
+				A9D3D55A15086FD700D286BF /* InfoPlist.strings */,
+				A9D3D55D15086FD700D286BF /* RubyVal-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A9D3D56A1508704A00D286BF /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				A9D3D5771508718C00D286BF /* ruby */,
+			);
+			name = lib;
+			sourceTree = "<group>";
+		};
+		A9D3D5771508718C00D286BF /* ruby */ = {
+			isa = PBXGroup;
+			children = (
+				A9D3D5781508719900D286BF /* test.rb */,
+			);
+			name = ruby;
+			path = RubyVal;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A9D3D54D15086FD700D286BF /* RubyVal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9D3D56015086FD700D286BF /* Build configuration list for PBXNativeTarget "RubyVal" */;
+			buildPhases = (
+				A9D3D54A15086FD700D286BF /* Sources */,
+				A9D3D54B15086FD700D286BF /* Frameworks */,
+				A9D3D54C15086FD700D286BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RubyVal;
+			productName = RubyVal;
+			productReference = A9D3D54E15086FD700D286BF /* RubyVal.service */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A9D3D54515086FD700D286BF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "Bitgun Interactive, LLC";
+			};
+			buildConfigurationList = A9D3D54815086FD700D286BF /* Build configuration list for PBXProject "RubyVal" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A9D3D54315086FD700D286BF;
+			productRefGroup = A9D3D54F15086FD700D286BF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A9D3D54D15086FD700D286BF /* RubyVal */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A9D3D54C15086FD700D286BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9D3D55C15086FD700D286BF /* InfoPlist.strings in Resources */,
+				A9D3D5791508719900D286BF /* test.rb in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A9D3D54A15086FD700D286BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9D3D575150870B900D286BF /* main.m in Sources */,
+				A9D3D576150870B900D286BF /* RVService.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A9D3D55A15086FD700D286BF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9D3D55B15086FD700D286BF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A9D3D55E15086FD700D286BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_ENABLE_OBJC_GC = supported;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		A9D3D55F15086FD700D286BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_ENABLE_OBJC_GC = supported;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		A9D3D56115086FD700D286BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RubyVal/RubyVal-Prefix.pch";
+				INFOPLIST_FILE = "RubyVal/RubyVal-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Services";
+				MACH_O_TYPE = mh_execute;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = service;
+			};
+			name = Debug;
+		};
+		A9D3D56215086FD700D286BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RubyVal/RubyVal-Prefix.pch";
+				INFOPLIST_FILE = "RubyVal/RubyVal-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Services";
+				MACH_O_TYPE = mh_execute;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = service;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A9D3D54815086FD700D286BF /* Build configuration list for PBXProject "RubyVal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9D3D55E15086FD700D286BF /* Debug */,
+				A9D3D55F15086FD700D286BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9D3D56015086FD700D286BF /* Build configuration list for PBXNativeTarget "RubyVal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9D3D56115086FD700D286BF /* Debug */,
+				A9D3D56215086FD700D286BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A9D3D54515086FD700D286BF /* Project object */;
+}
