@@ -10,11 +10,20 @@
 
 @implementation RVService
 
+@synthesize calculator = _calculator;
+- (RVCalculator *)calculator
+{
+    if ( _calculator == nil )
+    {
+        RVCalculator *c = [[RVCalculator alloc] init];
+        [self setCalculator:c];
+    }
+    return _calculator;
+}
+
 - (void)evaluateRuby:(NSPasteboard *)pboard userData:(NSString *)userData error:(NSString **)error
 {
-    NSLog(@"!!!!!!evaluateRuby: %@", pboard);
     NSString *pboardString;
-    NSString *newString;
     NSArray *types;
     
     types = [pboard types];
@@ -30,16 +39,16 @@
         return;
     }
     
-     NSLog(@"!!!!!!pboardString: %@", pboardString);
-    
-    NSString *source =  [NSString stringWithFormat:@"module Calculator; def self.process; (%@); end; end", pboardString];
-    [[MacRuby sharedRuntime] evaluateString:source];
-    id helper = [[MacRuby sharedRuntime] evaluateString:@"Calculator"];
-    newString = [NSString stringWithFormat:@"%@", [helper performRubySelector:@selector(process)]];
-    
-    types = [NSArray arrayWithObject:NSStringPboardType];
-    [pboard declareTypes:types owner:nil];
-    [pboard setString:newString forType:NSStringPboardType];
+    NSError *calculationError = nil;
+    NSString *newString = [self.calculator calculatePhrase:pboardString error:&calculationError];
+    if ( calculationError == nil ) 
+    {
+        types = [NSArray arrayWithObject:NSStringPboardType];
+        [pboard declareTypes:types owner:nil];
+        [pboard setString:newString forType:NSStringPboardType];
+    }
+    else
+        *error = NSLocalizedString(@"Error: unable to calculate text", [calculationError localizedString]);
 }
 
 @end

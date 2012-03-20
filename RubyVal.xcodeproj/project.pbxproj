@@ -7,15 +7,40 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A9B8EE59151051B10037D3B0 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9B8EE58151051B10037D3B0 /* SenTestingKit.framework */; };
+		A9B8EE5A151051B10037D3B0 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9D3D55115086FD700D286BF /* Cocoa.framework */; };
+		A9B8EE60151051B10037D3B0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A9B8EE5E151051B10037D3B0 /* InfoPlist.strings */; };
+		A9B8EE6D151052470037D3B0 /* RVMacRubyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A9B8EE6C151052470037D3B0 /* RVMacRubyTests.m */; };
+		A9B8EE6E151052A40037D3B0 /* MacRuby.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9D3D57A150871B400D286BF /* MacRuby.framework */; };
 		A9D3D55215086FD700D286BF /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9D3D55115086FD700D286BF /* Cocoa.framework */; };
 		A9D3D55C15086FD700D286BF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A9D3D55A15086FD700D286BF /* InfoPlist.strings */; };
 		A9D3D575150870B900D286BF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A9D3D572150870B900D286BF /* main.m */; };
 		A9D3D576150870B900D286BF /* RVService.m in Sources */ = {isa = PBXBuildFile; fileRef = A9D3D574150870B900D286BF /* RVService.m */; };
-		A9D3D5791508719900D286BF /* test.rb in Resources */ = {isa = PBXBuildFile; fileRef = A9D3D5781508719900D286BF /* test.rb */; };
-		A9D3D57B150871B400D286BF /* MacRuby.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9D3D57A150871B400D286BF /* MacRuby.framework */; };
+		A9D3D57B150871B400D286BF /* MacRuby.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9D3D57A150871B400D286BF /* MacRuby.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+		A9E7856115181AF000910B40 /* RVCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = A9E7856015181AF000910B40 /* RVCalculator.m */; };
+		A9E785671518201F00910B40 /* RVCalculatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A9E785661518201F00910B40 /* RVCalculatorTests.m */; };
+		A9E78568151821B300910B40 /* RVCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = A9E7856015181AF000910B40 /* RVCalculator.m */; };
+		A9E7857015182F5100910B40 /* calculator.rb in Resources */ = {isa = PBXBuildFile; fileRef = A9E7856C15182F5100910B40 /* calculator.rb */; };
+		A9E7857215182F5800910B40 /* calculator.rb in Resources */ = {isa = PBXBuildFile; fileRef = A9E7856C15182F5100910B40 /* calculator.rb */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		A9B8EE69151051CE0037D3B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A9D3D54515086FD700D286BF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A9B8EE56151051B10037D3B0;
+			remoteInfo = RubyValTests;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		A9B8EE57151051B10037D3B0 /* RubyValTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RubyValTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9B8EE58151051B10037D3B0 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		A9B8EE5D151051B10037D3B0 /* RubyValTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RubyValTests-Info.plist"; sourceTree = "<group>"; };
+		A9B8EE5F151051B10037D3B0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A9B8EE64151051B10037D3B0 /* RubyValTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RubyValTests-Prefix.pch"; sourceTree = "<group>"; };
+		A9B8EE6C151052470037D3B0 /* RVMacRubyTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RVMacRubyTests.m; sourceTree = "<group>"; };
 		A9D3D54E15086FD700D286BF /* RubyVal.service */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RubyVal.service; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9D3D55115086FD700D286BF /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		A9D3D55415086FD700D286BF /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -27,11 +52,25 @@
 		A9D3D572150870B900D286BF /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A9D3D573150870B900D286BF /* RVService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RVService.h; sourceTree = "<group>"; };
 		A9D3D574150870B900D286BF /* RVService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RVService.m; sourceTree = "<group>"; };
-		A9D3D5781508719900D286BF /* test.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; name = test.rb; path = lib/ruby/test.rb; sourceTree = SOURCE_ROOT; };
 		A9D3D57A150871B400D286BF /* MacRuby.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MacRuby.framework; path = Library/Frameworks/MacRuby.framework; sourceTree = SDKROOT; };
+		A9E7855F15181AF000910B40 /* RVCalculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RVCalculator.h; sourceTree = "<group>"; };
+		A9E7856015181AF000910B40 /* RVCalculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RVCalculator.m; sourceTree = "<group>"; };
+		A9E785661518201F00910B40 /* RVCalculatorTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RVCalculatorTests.m; sourceTree = "<group>"; };
+		A9E7856C15182F5100910B40 /* calculator.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = calculator.rb; sourceTree = "<group>"; };
+		A9E7856F15182F5100910B40 /* calculator_tests.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = calculator_tests.rb; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		A9B8EE53151051B10037D3B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9B8EE6E151052A40037D3B0 /* MacRuby.framework in Frameworks */,
+				A9B8EE59151051B10037D3B0 /* SenTestingKit.framework in Frameworks */,
+				A9B8EE5A151051B10037D3B0 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A9D3D54B15086FD700D286BF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -44,11 +83,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A9B8EE5B151051B10037D3B0 /* RubyValTests */ = {
+			isa = PBXGroup;
+			children = (
+				A9B8EE6C151052470037D3B0 /* RVMacRubyTests.m */,
+				A9E785661518201F00910B40 /* RVCalculatorTests.m */,
+				A9B8EE5C151051B10037D3B0 /* Supporting Files */,
+			);
+			path = RubyValTests;
+			sourceTree = "<group>";
+		};
+		A9B8EE5C151051B10037D3B0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A9B8EE5D151051B10037D3B0 /* RubyValTests-Info.plist */,
+				A9B8EE5E151051B10037D3B0 /* InfoPlist.strings */,
+				A9B8EE64151051B10037D3B0 /* RubyValTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		A9D3D54315086FD700D286BF = {
 			isa = PBXGroup;
 			children = (
-				A9D3D56A1508704A00D286BF /* lib */,
+				A9E7856B15182F5100910B40 /* ruby */,
 				A9D3D55715086FD700D286BF /* RubyVal */,
+				A9B8EE5B151051B10037D3B0 /* RubyValTests */,
 				A9D3D55015086FD700D286BF /* Frameworks */,
 				A9D3D54F15086FD700D286BF /* Products */,
 			);
@@ -58,6 +118,7 @@
 			isa = PBXGroup;
 			children = (
 				A9D3D54E15086FD700D286BF /* RubyVal.service */,
+				A9B8EE57151051B10037D3B0 /* RubyValTests.octest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -65,29 +126,22 @@
 		A9D3D55015086FD700D286BF /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				A9D3D57A150871B400D286BF /* MacRuby.framework */,
-				A9D3D55115086FD700D286BF /* Cocoa.framework */,
-				A9D3D55315086FD700D286BF /* Other Frameworks */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		A9D3D55315086FD700D286BF /* Other Frameworks */ = {
-			isa = PBXGroup;
-			children = (
 				A9D3D55415086FD700D286BF /* AppKit.framework */,
 				A9D3D55515086FD700D286BF /* CoreData.framework */,
 				A9D3D55615086FD700D286BF /* Foundation.framework */,
+				A9D3D57A150871B400D286BF /* MacRuby.framework */,
+				A9D3D55115086FD700D286BF /* Cocoa.framework */,
+				A9B8EE58151051B10037D3B0 /* SenTestingKit.framework */,
 			);
-			name = "Other Frameworks";
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		A9D3D55715086FD700D286BF /* RubyVal */ = {
 			isa = PBXGroup;
 			children = (
+				A9E7856315181AF600910B40 /* Calculator */,
+				A9E7856415181AFC00910B40 /* Service */,
 				A9D3D572150870B900D286BF /* main.m */,
-				A9D3D573150870B900D286BF /* RVService.h */,
-				A9D3D574150870B900D286BF /* RVService.m */,
 				A9D3D55815086FD700D286BF /* Supporting Files */,
 			);
 			path = RubyVal;
@@ -103,26 +157,70 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		A9D3D56A1508704A00D286BF /* lib */ = {
+		A9E7856315181AF600910B40 /* Calculator */ = {
 			isa = PBXGroup;
 			children = (
-				A9D3D5771508718C00D286BF /* ruby */,
+				A9E7855F15181AF000910B40 /* RVCalculator.h */,
+				A9E7856015181AF000910B40 /* RVCalculator.m */,
 			);
-			name = lib;
+			name = Calculator;
 			sourceTree = "<group>";
 		};
-		A9D3D5771508718C00D286BF /* ruby */ = {
+		A9E7856415181AFC00910B40 /* Service */ = {
 			isa = PBXGroup;
 			children = (
-				A9D3D5781508719900D286BF /* test.rb */,
+				A9D3D573150870B900D286BF /* RVService.h */,
+				A9D3D574150870B900D286BF /* RVService.m */,
 			);
-			name = ruby;
-			path = RubyVal;
+			name = Service;
+			sourceTree = "<group>";
+		};
+		A9E7856B15182F5100910B40 /* ruby */ = {
+			isa = PBXGroup;
+			children = (
+				A9E7856C15182F5100910B40 /* calculator.rb */,
+				A9E7856D15182F5100910B40 /* lib */,
+				A9E7856E15182F5100910B40 /* tests */,
+			);
+			path = ruby;
+			sourceTree = "<group>";
+		};
+		A9E7856D15182F5100910B40 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		A9E7856E15182F5100910B40 /* tests */ = {
+			isa = PBXGroup;
+			children = (
+				A9E7856F15182F5100910B40 /* calculator_tests.rb */,
+			);
+			path = tests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		A9B8EE56151051B10037D3B0 /* RubyValTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9B8EE67151051B10037D3B0 /* Build configuration list for PBXNativeTarget "RubyValTests" */;
+			buildPhases = (
+				A9B8EE52151051B10037D3B0 /* Sources */,
+				A9B8EE53151051B10037D3B0 /* Frameworks */,
+				A9B8EE54151051B10037D3B0 /* Resources */,
+				A9B8EE55151051B10037D3B0 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RubyValTests;
+			productName = RubyValTests;
+			productReference = A9B8EE57151051B10037D3B0 /* RubyValTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
 		A9D3D54D15086FD700D286BF /* RubyVal */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = A9D3D56015086FD700D286BF /* Build configuration list for PBXNativeTarget "RubyVal" */;
@@ -134,6 +232,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				A9B8EE6A151051CE0037D3B0 /* PBXTargetDependency */,
 			);
 			name = RubyVal;
 			productName = RubyVal;
@@ -146,6 +245,7 @@
 		A9D3D54515086FD700D286BF /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = RV;
 				LastUpgradeCheck = 0430;
 				ORGANIZATIONNAME = "Bitgun Interactive, LLC";
 			};
@@ -162,35 +262,88 @@
 			projectRoot = "";
 			targets = (
 				A9D3D54D15086FD700D286BF /* RubyVal */,
+				A9B8EE56151051B10037D3B0 /* RubyValTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		A9B8EE54151051B10037D3B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9B8EE60151051B10037D3B0 /* InfoPlist.strings in Resources */,
+				A9E7857215182F5800910B40 /* calculator.rb in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A9D3D54C15086FD700D286BF /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				A9D3D55C15086FD700D286BF /* InfoPlist.strings in Resources */,
-				A9D3D5791508719900D286BF /* test.rb in Resources */,
+				A9E7857015182F5100910B40 /* calculator.rb in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		A9B8EE55151051B10037D3B0 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
+		A9B8EE52151051B10037D3B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9B8EE6D151052470037D3B0 /* RVMacRubyTests.m in Sources */,
+				A9E785671518201F00910B40 /* RVCalculatorTests.m in Sources */,
+				A9E78568151821B300910B40 /* RVCalculator.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A9D3D54A15086FD700D286BF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				A9D3D575150870B900D286BF /* main.m in Sources */,
 				A9D3D576150870B900D286BF /* RVService.m in Sources */,
+				A9E7856115181AF000910B40 /* RVCalculator.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		A9B8EE6A151051CE0037D3B0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A9B8EE56151051B10037D3B0 /* RubyValTests */;
+			targetProxy = A9B8EE69151051CE0037D3B0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin PBXVariantGroup section */
+		A9B8EE5E151051B10037D3B0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9B8EE5F151051B10037D3B0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
 		A9D3D55A15086FD700D286BF /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -202,16 +355,44 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		A9B8EE65151051B10037D3B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RubyValTests/RubyValTests-Prefix.pch";
+				INFOPLIST_FILE = "RubyValTests/RubyValTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_AFTER_BUILD = YES;
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		A9B8EE66151051B10037D3B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RubyValTests/RubyValTests-Prefix.pch";
+				INFOPLIST_FILE = "RubyValTests/RubyValTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_AFTER_BUILD = YES;
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
 		A9D3D55E15086FD700D286BF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
-				GCC_ENABLE_OBJC_GC = supported;
+				GCC_ENABLE_OBJC_GC = required;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -226,6 +407,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
+				TEST_AFTER_BUILD = NO;
 			};
 			name = Debug;
 		};
@@ -233,12 +415,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
-				GCC_ENABLE_OBJC_GC = supported;
+				GCC_ENABLE_OBJC_GC = required;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
@@ -246,6 +428,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				SDKROOT = macosx;
+				TEST_AFTER_BUILD = NO;
 			};
 			name = Release;
 		};
@@ -278,6 +461,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		A9B8EE67151051B10037D3B0 /* Build configuration list for PBXNativeTarget "RubyValTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9B8EE65151051B10037D3B0 /* Debug */,
+				A9B8EE66151051B10037D3B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		A9D3D54815086FD700D286BF /* Build configuration list for PBXProject "RubyVal" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

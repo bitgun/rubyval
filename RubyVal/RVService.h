@@ -8,12 +8,14 @@
 
 #import <Foundation/Foundation.h>
 #import <Cocoa/Cocoa.h>
-#import <MacRuby/MacRuby.h>
+#import "RVCalculator.h"
 
 @interface RVService : NSObject
 {
-    // nothing
+    RVCalculator *_calculator;
 }
+
+@property (strong, nonatomic) RVCalculator *calculator;
 
 - (void)evaluateRuby:(NSPasteboard *)pboard userData:(NSString *)userData error:(NSString **)error;
 
